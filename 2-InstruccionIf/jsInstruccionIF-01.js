@@ -6,7 +6,7 @@ function mostrar()
 	edad=document.getElementById('txtIdEdad').value;
 	edad=parseInt(edad);
 
-	if (edad = 15) {
+	if (edad == 15) {
 		alert("Niña bonita");
 	} else {
 		alert("No tienes 15");
