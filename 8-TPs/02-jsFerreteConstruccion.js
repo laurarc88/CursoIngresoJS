@@ -38,6 +38,8 @@ function Materiales ()
     let ancho;
     let cal;
     let cemento;
+    let area;
+    let mensaje;
 
     largo=document.getElementById('txtIdLargo').value;
 	largo=parseInt(largo);
@@ -48,5 +50,11 @@ function Materiales ()
     cal=(largo*ancho)*3;
     cemento=(largo*ancho)*2;
 
-    alert("La cantidad a comprar es: " + cal + " bolsas de cal y " + cemento + " bolsas de cemento");
+    area=largo*ancho;
+
+    mensaje="Para un terreno de " + area;
+    mensaje+="m2, la cantidad a comprar es: " + cal;
+    mensaje+=" bolsas de cal y " + cemento + " bolsas de cemento";
+
+    alert(mensaje);
 }
