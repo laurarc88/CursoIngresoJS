@@ -1,3 +1,12 @@
+/* Laura R. Contreras
+Al ingresar una edad que sea igual a 15, mostrar el mensaje "niña bonita".
+
+operadores relacionales o condicionales
+	< > <= >= == !=
+	operadores logicos
+	&& || !
+*/
+
 function mostrar()
 {
 	//tomo la edad  
@@ -8,7 +17,5 @@ function mostrar()
 
 	if (edad == 15) {
 		alert("Niña bonita");
-	} else {
-		alert("No tienes 15");
-	}
+	} 
 }//FIN DE LA FUNCIÓN
